@@ -5,14 +5,14 @@
     font-family: 'Poppins'sans-serif;
 }
 body{
-    background-color: #080808;
-    color: #fff;
+    background-color: #361818;
+    color: #131212;
 }
 
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url("/home/Derrick/Development/Code/my-portfolio/assets/background.jpg");
+    background-image: url("https://img.freepik.com/premium-vector/young-man-writing-code-desktop-computer-software-developer-work-programming_625536-3102.jpg?semt=ais_hybrid&w=740");
    background-size:cover ;
    background-position: center;
 }
@@ -20,13 +20,14 @@ body{
     padding: 10px 10%;
  }
  nav{
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
  }
  .logo{
-    width: 140px;
+    width: 40px;
+    background-color: #831a1a;
  }
   nav ul li{
     display: inline-block;
@@ -35,16 +36,16 @@ body{
   }
     nav ul li a{
         text-decoration: none;
-        color: #fff;
-        font-size: 18px;
-        position: relative;
+        color: #141414;
+        font-size: 20;
+        position: right;
     }
  nav ul li a::after{
      content: '';
      width: 0%;
      height: 3px;
         background-color: #ff004f;
-        position: absolute;
+        position: center;
         left: 0;
         bottom: -6px;
         transition: 0.5s;
@@ -61,12 +62,12 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #ff004f;
+    color: #726f9e;
 }
 
 #about{
     padding: 8px 0;
-    color: #ababab;
+    color: #fdfafa;
 }
 .row{
     display: flex; 
@@ -86,7 +87,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 60px;
     font-weight: 600;
-    color: #928e8e
+    color: #e2dede
 }
 .tab-titles{
     display: flex;
@@ -117,7 +118,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #ff004f;
+    color: #340af0;
     font-size: 14px; 
 }  
 
@@ -132,7 +133,7 @@ padding: 30px 0;
     margin-top: 50px;
 }
  .services-list div{
-    background: #262626;
+    background: #f7eeee;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -150,13 +151,13 @@ padding: 30px 0;
  }
 .services-list div a{
     text-decoration: none;
-    color: #fff;
+    color: #e0cfcf;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff004f;
+    background: #2e1cd6;
     transform: translateY(-10px);
 }
 
@@ -183,7 +184,7 @@ padding: 30px 0;
   .layer{
     width:100%;
     height: 0;
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+    background: linear-gradient( rgba(185, 181, 181, 0.6), rgba(228, 220, 220, 0.5));
     border-radius: 10px; 
     position: absolute;
     left: 0;
@@ -205,9 +206,9 @@ padding: 30px 0;
 .layer a{
     margin-top: 20px;
     text-decoration: none;
-    color: #ff004f;
+    color: #0b08e6;
     font-size: 18px;
-    background:#fff
+    background:#044de9
 
 } 
 .work:hover img{
@@ -220,7 +221,7 @@ padding: 30px 0;
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #2706e2;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -228,7 +229,7 @@ padding: 30px 0;
     transition:background 0.5s, color 0.5s;
 }
 .btn:hover{
-    background: #ff004f;
+    background: #2b0db1;
 }
 .contact-left{
     flex-basis: 35%;
@@ -240,7 +241,7 @@ padding: 30px 0;
     margin-top: 30px;
 }
 .contact-left p i{
-color: #ff004f;
+color: #dfd5d8;
 margin-right: 15px;
 font-size: 25px;
 }
@@ -256,12 +257,12 @@ font-size: 25px;
     transition: transform 0.5s ;
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: #1022c7;
     transform:translateY(-5px); ;
 }
 .btn.btn2{
     display: inline-block  ;
-    background: #ff004f;
+    background: #2806e9;
 }
 .contact-right form{
     width: 100%;
